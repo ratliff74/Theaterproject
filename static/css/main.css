@@ -1,0 +1,68 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2; 
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: blue;
+}
+
+.april {
+    height: 50px;
+    width: 65%;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-left: 250px;
+    padding-left: 20px;
+}
+
+.flexbox-container {
+    width: flex;
+    margin-left: 210px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexbox-item-1  {
+    margin-top: 30px;
+}
+
+.flexbox-item-2 {
+    margin-top: 30px;
+    height: 250px;
+}
+
+
+ button{
+    background-color: rgba(253, 216, 5, 0.884);
+    color: white;
+    height: 50px;
+    width: 120px;
+    font-size: larger;
+    margin-left: 150px;
+} 
+
+button:hover {
+    background-color: white;
+    color: rgba(253, 216, 5, 0.884);
+}
+
+.contact-list {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
